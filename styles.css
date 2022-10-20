@@ -41,15 +41,13 @@ main {
   min-width: 160px;
   margin: 0 auto;
 }
-.card-container {
-  width: 100%;
-  height: 100%;
-}
 .card-content {
   padding: 1rem 1.5rem;
+  height: 100%;
 }
-.card img {
+picture img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
@@ -110,10 +108,24 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 700px;
-    max-height: 400px;
   }
-  .card-img img {
-    height: 100%;
-    object-fit: cover;
+  .card h5 {
+    margin-bottom: 2rem;
+  }
+  .card-content h5 {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .card-content {
+    padding: 1rem 2rem;
+  }
+  .phrase {
+    margin: 1.5rem auto;
+  }
+  .prices {
+    font-size: 2.5rem;
+  }
+  .btn {
+    margin-top: 2rem;
   }
 }
